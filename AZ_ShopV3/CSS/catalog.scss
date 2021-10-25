@@ -1,1 +1,30 @@
-@import "main"
+@import 'main';
+
+.banner_navbar  {
+    background-color: #F8F3F4;
+}
+.bannernav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    min-height: 150px;
+}
+.bannernav_left {
+    height: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;     
+    color: #F16D7F;
+}
+.bannernav_right {
+    height: 100%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #F16D7F;
+  }

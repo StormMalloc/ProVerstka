@@ -757,4 +757,44 @@
     width: 100%;
   }
 }
+
+.banner_navbar {
+  background-color: #F8F3F4;
+}
+
+.bannernav_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  min-height: 150px;
+}
+
+.bannernav_left {
+  height: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #F16D7F;
+}
+
+.bannernav_right {
+  height: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #F16D7F;
+}
 /*# sourceMappingURL=catalog.css.map */
