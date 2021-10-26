@@ -22,12 +22,12 @@ $fontawsomesize: 30px;
 .azgb_topmenu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;   
 }
 .azgb_topleft {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 10%;
     padding-left: 2%;
     padding-right: 2%;
@@ -42,7 +42,7 @@ $fontawsomesize: 30px;
 .azgb_topright {
     display: flex;
     justify-content: space-around;
-    width: 10%;
+    width: 20%;
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -65,6 +65,7 @@ $fontawsomesize: 30px;
 }
 .azgb_submenu1:hover .azgb_menuflex {
     display: block;
+    overflow: visible;
 }
 .azgb_menuflex {
     border: 1px solid gray;
@@ -290,7 +291,7 @@ $fontawsomesize: 30px;
     transition: all 1s;
 }
 .azgb_prodhref {
-    width: 360px;
+    max-width: 360px;
     display: block;
     text-decoration: none;
 }
@@ -319,14 +320,14 @@ $fontawsomesize: 30px;
 }
 .azgb_cartbox {
     position: absolute;
-    top: 190px;
+    top: 30%;
     display: none;
     justify-content: center;
     width: 100%;
 }
 .azgb_addcart {
     border: 1px solid #ffffff;
-    padding: 8px 12px;
+    padding: 2% 4%;
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
@@ -358,7 +359,6 @@ $fontawsomesize: 30px;
     margin-bottom: 100px;
     padding-bottom: 20px;
 }
-
 .azgb_prodprice {
     font-family: 'Lato';
     font-style: normal;
@@ -542,11 +542,12 @@ background-color: #F16D7F;
        padding-bottom: 20px;
     }
     .azgb_lowbanner2flex {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .lowlinks {
         display: flex;
         width: 100%;
     }
+    
 
 }

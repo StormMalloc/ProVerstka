@@ -1,1 +1,86 @@
-@import "main"
+@import 'main';
+
+.banner_navbar  {
+    background-color: #F8F3F4;
+}
+.bannernav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    min-height: 150px;
+}
+.bannernav_left {
+    height: 100%;
+    padding: 5%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;     
+    color: #F16D7F;
+}
+.bannernav_right {
+    height: 100%;
+    padding: 5%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #F16D7F; 
+}
+.filterbanner_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    min-height: 100px;
+}
+.filtertext {
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #6F6E6E;
+}
+.filter_right_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 29%;
+}
+.filter_left {
+    width: 39%;
+    padding: 2%;
+}
+.filterright {
+    padding: 2%;
+}
+.product_grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 3%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat (2, 1fr);
+}
+@media screen and (max-width: 800px) { 
+    .product_grid {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat (3, 1fr)
+    }    
+}
+@media screen and  (max-width: 400px) {
+    .product_grid {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat (6, 1fr)
+    }    
+}
